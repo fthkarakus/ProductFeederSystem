@@ -1,8 +1,6 @@
 <?php
 
-namespace ProductFeederSystem;
-
-use ProductFeederSystem\FileFormatInterface;
+namespace ProductFeederSystem\FileFormats;
 
 class JsonFileFormat implements FileFormatInterface
 {

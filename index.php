@@ -2,12 +2,12 @@
 
 require 'vendor/autoload.php';
 
+use ProductFeederSystem\FileFormats\CsvFileFormat;
+use ProductFeederSystem\FileFormats\JsonFileFormat;
+use ProductFeederSystem\FileFormats\XmlFileFormat;
 use ProductFeederSystem\ProductFeederSystem;
 use ProductFeederSystem\RequestHandler;
 use ProductFeederSystem\ResponseFormatter;
-use ProductFeederSystem\JsonFileFormat;
-use ProductFeederSystem\XmlFileFormat;
-use ProductFeederSystem\CsvFileFormat;
 
 
 header("Access-Control-Allow-Origin: *");

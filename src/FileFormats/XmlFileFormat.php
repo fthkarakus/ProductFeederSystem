@@ -1,8 +1,7 @@
 <?php
 
-namespace ProductFeederSystem;
+namespace ProductFeederSystem\FileFormats;
 
-use ProductFeederSystem\FileFormatInterface;
 use SimpleXMLElement;
 
 class XmlFileFormat implements FileFormatInterface

@@ -3,9 +3,9 @@
 namespace ProductFeederSystem\Tests;
 
 use PHPUnit\Framework\TestCase;
-use ProductFeederSystem\JsonFileFormat;
-use ProductFeederSystem\XmlFileFormat;
-use ProductFeederSystem\CsvFileFormat;
+use ProductFeederSystem\FileFormats\CsvFileFormat;
+use ProductFeederSystem\FileFormats\JsonFileFormat;
+use ProductFeederSystem\FileFormats\XmlFileFormat;
 
 class ProductFeederSystemTest extends TestCase
 {

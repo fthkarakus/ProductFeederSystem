@@ -2,7 +2,7 @@
 
 namespace ProductFeederSystem;
 
-use ProductFeederSystem\FileFormatInterface;
+use ProductFeederSystem\FileFormats\FileFormatInterface;
 
 class ProductFeederSystem
 {

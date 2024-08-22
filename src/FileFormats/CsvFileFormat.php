@@ -1,6 +1,6 @@
 <?php
 
-namespace ProductFeederSystem;
+namespace ProductFeederSystem\FileFormats;
 
 class CsvFileFormat implements FileFormatInterface
 {
