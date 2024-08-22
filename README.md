@@ -34,12 +34,12 @@ This project provides a product feeder system that exports e-commerce product da
    The API is available via the `index.php` file. You can access it by making GET requests with the `format` parameter to specify the desired output format:
 
     ```http
-    GET /index.php?format=JSON
-    GET /index.php?format=XML
-    GET /index.php?format=CSV
+    GET /index.php?format=json
+    GET /index.php?format=xml
+    GET /index.php?format=csv
     ```
 
 2. **Supported Formats**:
-    - `format=JSON` : Returns product data in JSON format.
-    - `format=XML` : Returns product data in XML format.
-    - `format=CSV` : Returns product data in CSV format.
+    - `format=json` : Returns product data in JSON format.
+    - `format=xml` : Returns product data in XML format.
+    - `format=csv` : Returns product data in CSV format.
